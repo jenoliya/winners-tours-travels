@@ -160,7 +160,7 @@ const Contact: React.FC = () => {
                       <MapPin size={18} />
                     </div>
                     <div className="absolute top-12 left-1/2 -translate-x-1/2 bg-white px-4 py-2 rounded-xl shadow-2xl whitespace-nowrap">
-                      <p className="text-xs font-bold text-primary">Winner Tours</p>
+                      <p className="text-xs font-bold text-primary">Winners Tours & Travels</p>
                       <p className="text-xs text-on-surface-variant">Race Course, Coimbatore</p>
                     </div>
                   </div>
@@ -222,7 +222,7 @@ const Contact: React.FC = () => {
                 Ready to experience the best of South India?
               </h2>
               <p className="text-white/80 mb-8 max-w-xl mx-auto">
-                Join thousands of satisfied travellers who chose Winner Tours for their premium travel needs.
+                Join thousands of satisfied travellers who chose Winners Tours & Travels for their premium travel needs.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a href={`tel:${COMPANY_INFO.phone}`} className="bg-white text-primary font-bold text-base px-10 py-4 rounded-2xl hover:bg-white/90 transition-all">

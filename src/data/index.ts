@@ -358,7 +358,7 @@ export const testimonials: Testimonial[] = [
     location: "Chennai",
     rating: 5,
     review:
-      "The driver was extremely professional and knew the best local spots for food in Munnar. Winner Tours made our honeymoon truly unforgettable! The Innova was spotless and the resort recommendations were perfect.",
+      "The driver was extremely professional and knew the best local spots for food in Munnar. Winners Tours & Travels made our honeymoon truly unforgettable! The Innova was spotless and the resort recommendations were perfect.",
     destination: "Munnar Mist Package",
   },
   {
@@ -376,7 +376,7 @@ export const testimonials: Testimonial[] = [
     location: "Mumbai",
     rating: 5,
     review:
-      "Valparai was completely off our radar until Winner Tours suggested it. The wildlife guide was incredible — we spotted a herd of gaurs right on the road! An experience money can't buy.",
+      "Valparai was completely off our radar until Winners Tours & Travels suggested it. The wildlife guide was incredible — we spotted a herd of gaurs right on the road! An experience money can't buy.",
     destination: "Valparai Wilderness Package",
   },
   {
@@ -394,7 +394,7 @@ export const testimonials: Testimonial[] = [
     location: "Kochi",
     rating: 5,
     review:
-      "Winner Tours picked us up on time at 5 AM for our Kodaikanal trip. The car was pristine, the driver knew all the hidden viewpoints, and they even arranged a special sunrise spot. Outstanding!",
+      "Winners Tours & Travels picked us up on time at 5 AM for our Kodaikanal trip. The car was pristine, the driver knew all the hidden viewpoints, and they even arranged a special sunrise spot. Outstanding!",
     destination: "Kodaikanal Adventure Package",
   },
 ];

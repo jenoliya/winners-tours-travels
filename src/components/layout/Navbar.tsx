@@ -29,7 +29,7 @@ const Navbar: React.FC = () => {
             to="/"
             className="font-display text-2xl font-bold text-primary tracking-tight select-none"
           >
-            Winner <span className="text-secondary">Tours</span>
+            Winners <span className="text-secondary">Tours</span> & <span className="text-secondary">Travels</span>
           </Link>
 
           {/* Desktop nav */}

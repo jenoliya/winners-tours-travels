@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
           {/* Brand */}
           <div className="lg:col-span-1">
             <div className="font-display text-2xl font-bold text-primary mb-4">
-              Winner <span className="text-secondary">Tours</span>
+              Winners <span className="text-secondary">Tours</span> & <span className="text-secondary">Travels</span>
             </div>
             <p className="text-on-surface-variant text-sm leading-relaxed mb-6">
               Making travel personal, safe, and memorable since {COMPANY_INFO.founded}. Your trusted companion for South Indian adventures.
@@ -127,7 +127,7 @@ const Footer: React.FC = () => {
       <div className="border-t border-outline-variant/30">
         <div className="section-container py-4 flex flex-col md:flex-row justify-between items-center gap-3">
           <p className="text-on-surface-variant text-xs">
-            © {new Date().getFullYear()} Winner Tours and Travels. All rights reserved.
+            © {new Date().getFullYear()} Winners Tours and Travels. All rights reserved.
           </p>
           <div className="flex gap-6">
             {["Privacy Policy", "Terms of Service", "Cancellation Policy"].map((item) => (

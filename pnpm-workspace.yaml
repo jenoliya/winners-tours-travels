@@ -1,0 +1,9 @@
+packages:
+  - '.'
+
+allowBuilds:
+  core-js: true
+  core-js-pure: true
+
+minimumReleaseAgeExclude:
+  - '@types/react@19.2.17'

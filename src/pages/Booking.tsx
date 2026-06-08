@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { User, Mail, Phone, MapPin, MessageSquare, ArrowRight, ArrowLeft } from "lucide-react";
 import BookingSummary from "../components/booking/BookingSummary";

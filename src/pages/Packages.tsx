@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Search, Filter } from "lucide-react";
 import PageHero from "../components/common/PageHero";
 import PackageCard from "../components/package/PackageCard";
-import SectionHeader from "../components/common/SectionHeader";
 import { packages } from "../data";
 
 const durations = ["All", "1 Day", "2 Days", "3 Days", "4+ Days"];

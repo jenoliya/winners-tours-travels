@@ -11,11 +11,11 @@ export const NAV_LINKS: NavLink[] = [
 ];
 
 export const COMPANY_INFO = {
-  name: "Winner Tours",
+  name: "Winners Tours & Travels",
   tagline: "Your Journey, Our Commitment",
   phone: "+91 422 1234 567",
   whatsapp: "+91 90000 88888",
-  email: "hello@winnertours.com",
+  email: "hello@winnerstoursandtravels.com",
   address: "124, West Club Road, Race Course, Coimbatore, Tamil Nadu 641018",
   founded: "2012",
   tripsCompleted: "10,000+",

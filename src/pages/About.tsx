@@ -68,7 +68,7 @@ const About: React.FC = () => {
     <>
       {/* Hero — Kodaikanal misty lake, verified travel image */}
       <PageHero
-        title="About Winner Tours"
+        title="About Winners Tours & Travels"
         subtitle="Making travel personal, safe, and memorable since 2012."
         image="https://images.unsplash.com/photo-1598091383021-15ddea10925d?w=1600&q=80"
         height="h-80 md:h-[420px]"
@@ -90,7 +90,7 @@ const About: React.FC = () => {
                   experience they deserve. Not just a ride, but a curated journey.
                 </p>
                 <p>
-                  Today, Winner Tours has grown into South India's most trusted travel partner, having
+                  Today, Winners Tours & Travels has grown into South India's most trusted travel partner, having
                   completed over <strong className="text-primary">{COMPANY_INFO.tripsCompleted} trips</strong> and
                   delighting <strong className="text-primary">{COMPANY_INFO.satisfiedTravellers} families</strong>.
                   Our fleet of premium vehicles, our team of hospitality-trained chauffeurs, and our

@@ -134,7 +134,7 @@ const Checkout: React.FC = () => {
                   <span className="text-sm text-on-surface-variant leading-relaxed">
                     I agree to the{" "}
                     <span className="text-primary font-bold cursor-pointer hover:underline">Terms and Conditions</span>,
-                    Cancellation Policy, and Privacy Policy of Winner Tours. I confirm that all passenger details are correct.
+                    Cancellation Policy, and Privacy Policy of Winners Tours & Travels. I confirm that all passenger details are correct.
                   </span>
                 </label>
 

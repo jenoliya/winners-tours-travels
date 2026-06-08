@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body {
+    @apply bg-background text-on-background;
+    font-family: 'DM Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Sora', sans-serif;
+  }
+}
+
+@layer components {
+  .glass-card {
+    background: rgba(255, 255, 255, 0.78);
+    backdrop-filter: blur(28px);
+    -webkit-backdrop-filter: blur(28px);
+    border: 1px solid rgba(255, 255, 255, 0.45);
+  }
+  .glass-dark {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+  }
+  .text-shadow {
+    text-shadow: 0 4px 16px rgba(0, 0, 0, 0.35);
+  }
+  .section-container {
+    @apply max-w-container-max mx-auto px-gutter;
+  }
+  .btn-primary {
+    @apply bg-primary text-white px-6 py-3 rounded-2xl font-semibold text-sm tracking-wide hover:opacity-90 transition-all active:scale-95;
+  }
+  .btn-secondary {
+    @apply bg-secondary-container text-on-secondary-container px-6 py-3 rounded-2xl font-semibold text-sm tracking-wide hover:brightness-110 transition-all active:scale-95;
+  }
+  .btn-outline {
+    @apply border-2 border-primary text-primary px-6 py-3 rounded-2xl font-semibold text-sm tracking-wide hover:bg-primary hover:text-white transition-all;
+  }
+  .input-field {
+    @apply w-full px-4 py-3 bg-surface-container-low border-none rounded-xl focus:ring-2 focus:ring-primary focus:outline-none transition-all text-on-surface placeholder:text-outline;
+  }
+  .card-hover {
+    @apply transition-all duration-300 hover:-translate-y-1 hover:shadow-ambient;
+  }
+  .tag {
+    @apply bg-surface-container text-primary px-3 py-1 rounded-lg text-xs font-semibold;
+  }
+}
